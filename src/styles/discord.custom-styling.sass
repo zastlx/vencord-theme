@@ -15,14 +15,9 @@ div[class*='container'] div[class*='base']:not([class*='baseLayer']):not([class*
   div[class*='chat']
     --bg-overlay-chat: var(--synqats-gb-bg-dim)
 
-section[class*='title']
-  margin-bottom: 16px
-
 div[class*='sidebar'],
-section[class*='title'],
 div[class*='members'],
-aside[class*='profilePanel'],
-main[class*='chatContent'] 
+aside[class*='profilePanel'] 
   border-radius: 8px !important
   overflow: hidden
 
@@ -53,6 +48,10 @@ div[role="dialog"] div[class*='footer']
 
 input[class*='inputDefault']
   background-color: var(--synqats-gb-bg-0)
+
+section[class*='title'] 
+  margin-bottom: 0px !important
+  border-radius: 0px !important
 
 div[class*='searchBar']
   background-color: var(--synqats-gb-bg-dim)
